@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("https://drscdn.500px.org/photo/11448917/m%3D900/v2?sig=35d244c9a460bfd56ed729c4f7ec8a44607b844fe7c463ce24cd2a84c596f749");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1
+{
+	color:#373452 !important;
+	border: solid;
+	border-radius: 90px;
+	background-color: antiquewhite;
+	font-family:cursive !important;
+
+}
+h3
+{
+	color:#000000 !important;
+}
+h4{
+	color:hsl(0, 0%, 0%) !important;
+	border: solid;
+	background-color:hsl(0, 0%, 100%) !important ;
+	border-color: hsl(0, 0%, 100%);
+	margin-left: 370px;
+	margin-right: 370px;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Valet Parking </title>
+</head>
+<body onload="add();">
+<script type='text/javascript' src='https://500px.com/embed.js'></script>
+<center>
+<h1 >Valet Parking</h1>
+<h3>Move The Green Car With Arrow Keys</h3>
+<h4>
+	<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY
+</h4>
+
+	<canvas id="myCanvas" width="800" height="400"></canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
